@@ -1,1 +1,6 @@
-<Solution />
+<Solution>
+  <Project Path="src/Abstractions/Abstractions.csproj" />
+  <Project Path="src/App/App.csproj" />
+  <Project Path="src/Domain/Domain.csproj" />
+  <Project Path="src/Infrastructure/Infrastructure.csproj" />
+</Solution>
