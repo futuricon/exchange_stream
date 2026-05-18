@@ -6,4 +6,16 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+        <PackageReference Include="Dapper" Version="2.1.66"/>
+        <PackageReference Include="Npgsql" Version="9.0.4"/>
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.6"/>
+        <PackageReference Include="Microsoft.Extensions.Options" Version="10.0.6"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Abstractions\Abstractions.csproj" />
+      <ProjectReference Include="..\Domain\Domain.csproj" />
+    </ItemGroup>
+
 </Project>
